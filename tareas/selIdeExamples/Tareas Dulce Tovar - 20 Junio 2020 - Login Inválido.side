@@ -1,0 +1,332 @@
+{
+  "id": "7c81efb2-064b-4b0a-8425-6f4367563c3d",
+  "version": "2.0",
+  "name": "Tareas Dulce Tovar - 10 Junio 2020",
+  "url": "https://evening-bastion-49392.herokuapp.com",
+  "tests": [{
+    "id": "7a575437-8422-4481-af2c-5ef7b9f1012f",
+    "name": "Login inválido - Username / password",
+    "commands": [{
+      "id": "00d85572-d7bd-4edf-b6bd-04556279cdef",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c019830-c35f-4703-9f43-e561e2075ede",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "950x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "862abf67-393a-4d28-9852-926071d32a7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img[@alt='Frank Sinatra']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3193ae81-cd43-413d-821a-ab232002779d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.current", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6205040d-baf0-4b03-8908-779b82730c01",
+      "comment": "",
+      "command": "click",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img[@alt='Frank Sinatra']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11c6a484-0eca-43a4-92cd-e6e9de9d7dc2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log in",
+      "targets": [
+        ["linkText=log in", "linkText"],
+        ["css=footer > a", "css:finder"],
+        ["xpath=//a[contains(text(),'log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe5ea24a-daa5-4875-b48c-7ef366565bfe",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "867b5df7-5526-4b8c-9186-1bda7fb09e4f",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dulce"
+    }, {
+      "id": "f31cb71a-f74d-42e8-b89f-94fb5f9c7a9f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "tovar"
+    }, {
+      "id": "7034991e-d83d-4db1-96e3-7eab6fabde5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Log In']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e6b99e3-8aec-4981-954a-f389e2a0e50d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flash",
+      "targets": [
+        ["css=.flash", "css:finder"],
+        ["xpath=//div[@id='flash']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24a3ea02-efe7-4782-a723-e7d1ab5e101b",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Welcome to this website all about the songs of the great Frank Sinatra')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "123fac71-6561-4ff9-b6d5-d982e626cd97",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Welcome to this website all about the songs of the great Frank Sinatra')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "465717d8-a079-4a10-bc99-aed2d1121c46",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Welcome to this website all about the songs of the great Frank Sinatra')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03098419-f412-4634-bff1-8a5c00a973e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Welcome to this website all about the songs of the great Frank Sinatra')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72876cf2-e69d-476c-a95f-e9e16dd9d344",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Welcome to this website all about the songs of the great Frank Sinatra')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e834a717-4148-4ae6-98c0-4e473acb5f1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img[@alt='Frank Sinatra']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b06e0c89-1725-4626-8827-5553bdd444fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log in",
+      "targets": [
+        ["linkText=log in", "linkText"],
+        ["css=footer > a", "css:finder"],
+        ["xpath=//a[contains(text(),'log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "033e8c33-5822-45e5-8ffb-f3dcb4edfa62",
+    "name": "Login invalido",
+    "commands": [{
+      "id": "81a16d46-6639-4ab2-88a0-f8b5503fb365",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "993362b9-cd68-424f-bbaa-69404f6f115d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "950x1057",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df30ff3a-93c1-40fd-b5db-ca117d706a58",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6f0d0cc-f205-4bb2-a023-eec322e9189a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log in",
+      "targets": [
+        ["linkText=log in", "linkText"],
+        ["css=footer > a", "css:finder"],
+        ["xpath=//a[contains(text(),'log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5bbed20-21e3-45c3-90f4-f09556f9ab6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "140d4117-d8cb-4b1a-8e95-2322a9f6d7a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dulce"
+    }, {
+      "id": "100a84ad-f4a7-421a-8f78-fb75d4379e63",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "tovar"
+    }, {
+      "id": "d490771b-fac1-4bc4-a48e-9d56f70cb218",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Log In']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "753d000b-c3c7-4e45-a72e-092f4401f922",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.flash",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94ebad36-d462-48c9-a4e3-c0b4cf020a3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "093175f5-1ffe-47bb-bf90-ba26c2a5551f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7a575437-8422-4481-af2c-5ef7b9f1012f"]
+  }],
+  "urls": ["https://evening-bastion-49392.herokuapp.com/"],
+  "plugins": []
+}
